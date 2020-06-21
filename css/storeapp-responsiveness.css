@@ -1,0 +1,192 @@
+
+@media screen and (orientation: landscape)/* and (min-width: 320px) and (max-width: 854px)  and (max-width: 854px)*/ {
+    
+    .storecontainer  {
+        display: block;
+        width: 98vw;
+        height: 280px;
+        margin-top: 3%;
+    }
+    .shoppinglist  {
+        display: none;
+        margin-top: 20px;
+    }
+    .shoppinglistinput {
+        display: block;
+        border-style: none;
+        background-color: transparent;
+        margin-top: 215px;
+        width: 98vw;
+    }
+
+    .shoppinglisttitle  {
+        display: none;
+    }
+    .exploreourcategories  {
+        display: none;
+    } 
+    #bunker1  {
+        display: none;
+    }
+    #bunker2  {
+        display: none;
+    }
+    .storepaymentoptions  {
+        color: #231F20;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 20px;
+        left: 15px;
+        position: absolute;
+        display: none;
+        margin-top: 0.5%
+    }
+    .storeID  {
+        margin-right: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: #231F20;
+        margin-left: 1%;
+        margin-top: 0.5%;
+        position: absolute;
+        display: block;
+     }
+     .groceryitem {
+        position: absolute;
+        width: 80px;
+        height: 150px;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        display: block;
+        margin: auto;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 15px;
+        border-style: solid;
+        background-color: #FEF200;
+        z-index: 1;
+    }
+    .groceryitemtext {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 38px;
+        margin-left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        position: absolute;
+    }   
+    .downarrow {
+        margin-top: 88px;
+        margin-left: 50%;
+        color: rgb(139, 4, 4);
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        position: absolute;
+        z-index: 2;
+    }
+}
+    
+@media screen and (orientation: portrait) /*and (max-width: 1080px)*/ {
+    .storeID  {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        color: #231F20;
+        margin-top: 2%;
+        position: absolute;
+        display: block;
+
+        left: 5vw;
+     }
+
+    .storepaymentoptions  {
+        color: #231F20;
+        font-family: Arial, Helvetica, sans-serif; 
+        left: 100px;
+        position: absolute;
+        display: none;
+    }
+    .shoppinglisttitle  {
+        color: #231F20;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: bold;
+        font-size: 32px;
+        left: -100px;
+        position: absolute;
+        display: none;
+    }
+    .maincontainer  {
+        width: 90vw;
+        display: block;
+    }
+    .main  {
+        width: 100%;
+        display: block;
+        position: absolute;
+    }
+    .storecontainer  {
+        display: none;
+    }
+    .shoppinglist  {
+        display: block;
+        width: 90vw;
+        height: 80vh;
+        position: absolute;
+        margin-left: 5vw;
+        margin-top: 10vh
+    }
+
+    .mainlistsection  {
+        width: 85vw;
+        height: 85vh;
+        position: relative;
+        float: left;
+        background-color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+
+    .addtomainlistbutton  {
+        width: 60vw;
+    }
+    .shoppinglistinput  {
+        display: none;
+    }
+    .exploreourcategories  {
+        display: none;
+    } 
+    .storeheader  {
+        margin-left: 0%;
+        float: left;
+        display: block;
+        
+     }
+    
+    .storeID  {
+        margin-right: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        color: #231F20;
+        margin-left: 1%;
+        margin-top: 2%;
+        position: absolute;
+        display: block;
+     }
+    
+    .storepaymentoptions  {
+        margin-right: 0%;
+        color: #231F20;
+        font-family: Arial, Helvetica, sans-serif; 
+        margin-left: 30%;
+        margin-top: 1.6%;
+        position: absolute;
+        display: block;
+     }}   

@@ -1,0 +1,68 @@
+.showqr  {
+    width: 180px;
+    height: 118px;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: black;
+    box-sizing: border-box;
+    color: black;
+    position: absolute;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px; 
+    text-align: center;
+    display: none;
+    padding-top: 4px;
+}
+
+.showqr img {
+    width: 94px;
+    height: 94px;
+    position: absolute;
+    left: 70px;
+}
+
+.showqr i  {
+    padding-top: 12px;
+    padding-left: 18px;
+    position: absolute;
+    float: left;
+}
+
+.showqr #text  {
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.showqr #text button {
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 5px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    width: 14px;
+    height: 14px;
+}
+
+.fa-mobile-alt:before {
+    content: "\f3cd";
+    left: 80px;
+    margin-left: -216px;
+    font-size: 70px;
+}
+
+.close-x  {
+    float: right;
+    font-size: 12px;
+    margin-right: 7px;
+}
+
+.view-on-mobile  {
+    float: left;
+    font-size: 12px;
+    margin-left: 20px;
+}

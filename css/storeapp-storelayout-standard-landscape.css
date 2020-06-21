@@ -1,0 +1,37 @@
+@media screen and (orientation: landscape) and (min-width: 855px) {
+
+/* aisles */
+ .aisle1a::after  {
+    margin-top: 120px;
+    margin-left: -70px;
+}
+.aisle2a::after  {
+    margin-top: 120px;
+    margin-left: -50px;
+}
+
+.aisle3a::after  {
+    margin-top: 120px;
+    margin-left: -47px;
+}
+.aisle4a::after  {
+    margin-top: 120px;
+    margin-left: -47px;
+}
+.aisle5a::after  {
+    margin-top: 120px;
+    margin-left: -77px;
+}
+.aisle6a::after  {
+    margin-top: 120px;
+    margin-left: -77px;
+}
+.aisle7a::after  {
+    margin-top: 120px;
+    margin-left: -47px;
+}
+.aisle8a::after  {
+    margin-top: 120px;
+    margin-left: -47px;
+}
+}

@@ -1,0 +1,98 @@
+@media screen and (orientation: portrait) /*and (max-width: 1080px)*/ {
+    .storeID  {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        color: #231F20;
+        margin-top: 2%;
+        position: absolute;
+        display: block;
+
+        left: 5vw;
+     }
+
+    .shoppinglisttitle  {
+        color: #231F20;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: bold;
+        font-size: 32px;
+        left: -100px;
+        position: absolute;
+        display: none;
+    }
+    .maincontainer  {
+        width: 90vw;
+        display: block;
+    }
+    .main  {
+        width: 100%;
+        display: block;
+        position: absolute;
+    }
+    .storecontainer  {
+        display: none;
+    }
+    .shoppinglist  {
+        display: block;
+        width: 90vw;
+        height: 78vh;
+        position: absolute;
+        margin-left: 5vw;
+        margin-top: 10vh
+    }
+
+    .mainlistsection  {
+        width: 85vw;
+        height: 85vh;
+        position: relative;
+        background-color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+
+    .addtomainlistbutton  {
+        width: 60vw;
+    }
+    .shoppinglistinput  {
+        display: none;
+    }
+    .exploreourcategories  {
+        display: none;
+    } 
+    .storeheader  {
+        margin-left: 0%;
+        float: left;
+        display: block;
+        
+     }
+    
+    .storeID  {
+        margin-right: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        color: #231F20;
+        margin-left: 1%;
+        margin-top: 2%;
+        position: absolute;
+        display: block;
+     }
+    
+    .storepaymentoptions  {
+        margin-right: 0%;
+        color: #231F20;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 30%;
+        margin-top: 1.6%;
+        position: absolute;
+        right: 10px;
+        top: 92%;
+    
+     }
+}   

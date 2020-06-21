@@ -1,0 +1,18 @@
+:root  {
+    --product-aisle1b: 66%;
+    --product-aisle1a: 64%;
+    --product-aisle2b: 55%;
+    --product-aisle2a: 52%;
+    --product-aisle3b: 48%;
+    --product-aisle3a: 46%;
+    --product-aisle4b: 42%;
+    --product-aisle4a: 40%;
+    --product-aisle5b: 36%;
+    --product-aisle5a: 34%;
+    --product-aisle6b: 24%;
+    --product-aisle6a: 22%;
+    --product-aisle7b: 12%;
+    --product-aisle7a: 10%;
+    --product-aisle8b: 4%;
+    --product-aisle8a: 0%;
+}

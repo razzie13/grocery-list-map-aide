@@ -1,0 +1,133 @@
+
+@media screen and (orientation: landscape) and (min-width: 320px) and (max-width: 854px)  and (max-height: 480px) {
+    .main  {
+        width: 100vw;
+    }
+    .storecontainer  {
+        display: block;
+        width: 98vw;
+        height: 39vw;
+        left: 0.5vw;
+        margin-top: 3%;
+        position: absolute;
+    }
+    .shoppinglist  {
+        display: none;
+        margin-top: 20px;
+    }
+    .shoppinglistinput {
+        FONT-VARIANT: JIS04;
+        display: block;
+        border-style: none;
+        background-color: transparent;
+        width: 98vw;
+        position: relative;
+        margin-top: 33vw;
+    }
+
+    .shoppinglistinputform  {
+        margin-left: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        bottom: -15px;
+    }
+
+    .shoppinglisttitle  {
+        display: none;
+    }
+    .exploreourcategories  {
+        display: none;
+    } 
+    #bunker1  {
+        display: none;
+    }
+    #bunker2  {
+        display: none;
+    }
+    .storepaymentoptions  {
+        color: #231F20;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 20px;
+        left: 15px;
+        position: absolute;
+        display: none;
+        margin-top: 0.5%
+    }
+    .storeID  {
+        margin-right: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: #231F20;
+        margin-left: 1%;
+        margin-top: 0.5%;
+        position: absolute;
+        display: block;
+     }
+     .groceryitem {
+        position: absolute;
+        width: 80px;
+        height: 150px;
+        transform: translate(-50%, -50%);
+        display: block;
+        margin: auto;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 15px;
+        border-style: solid;
+        background-color: #FEF200;
+        z-index: 1;
+    }
+    .groceryitemtext {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 38px;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }   
+    .downarrow {
+        margin-top: 88px;
+        margin-left: 50%;
+        color: rgb(139, 4, 4);
+        transform: translate(-50%, -50%);
+        position: absolute;
+        z-index: 2;
+    }
+
+    .button  {
+        width: 20%;
+        height: 24px;
+        
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        
+        cursor: pointer;
+        border-radius: 15px;
+        position: absolute;
+        border-style: solid;
+    }
+
+    .button-addtolist  {
+        margin-left: 3%;
+        background-color: #E62A23;
+        border: none;
+        color: white;
+    }
+    
+    .button-findinstore  {
+        margin-left: 25%;
+        background-color: #FEF200;
+        border-style: solid;
+        border-color: #231F20;
+        border-width: 2px;
+        box-sizing: border-box;
+        color: #231F20;
+    }
+
+
+}
